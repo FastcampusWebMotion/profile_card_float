@@ -14,9 +14,7 @@ a {
    text-decoration: none;
 }
 
-body {
-   background: lightcyan;
-}
+
 .wrap {
    width: 340px;
    padding: 30px;
@@ -50,8 +48,7 @@ body {
 .wrap .profile img {
    width: 200px;
    height: auto;
-   border-radius: 50%;
-   box-shadow: 5px 15px 30px rgba(144, 223, 255, .8);
+   border-radius: 50%;   
    margin-bottom: 20px;
 }
 .wrap .profile h1 {
@@ -68,9 +65,7 @@ body {
    display: block;
    width: 180px;
    height: 32px;
-   margin: 0px auto 20px;
-   background: linear-gradient(45deg, aqua, #77d9ff);
-   box-shadow: 5px 10px 20px rgba(0, 255, 255, .5);
+   margin: 0px auto 20px;   
    text-shadow: 0px 0px 5px rgba(255,255,255,.6);
    font: bold 12px/32px "arial";
    color: #fff;
@@ -98,4 +93,85 @@ body {
    font: 11px/1 "orbitron";
    color: #555;
    letter-spacing: 1px;
+}
+.wrap .others {
+   text-align: center;
+   font-size: 0px;
+   margin-bottom: 20px;
+}
+.wrap .others a {
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   background: gray;
+   border-radius: 50%;
+   margin: 0px 10px;
+   opacity: 0.3;
+}
+.wrap .others a.on {
+   opacity: 1;
+}
+.wrap .others a:nth-of-type(1) {
+   background: aqua;
+   box-shadow: 5px 5px 10px rgba(0, 255, 255, .5);
+}
+.wrap .others a:nth-of-type(2) {
+   background: #41fbb4;
+   box-shadow: 5px 5px 10px rgba(65, 251, 180, .5);
+}
+.wrap .others a:nth-of-type(3) {
+   background: hotpink;
+   box-shadow: 5px 5px 10px rgb(255, 105, 180, .7);
+}
+.wrap .others a:nth-of-type(4) {
+   background: #9410c8;
+   box-shadow: 5px 5px 10px rgba(148, 16, 200, .7);
+}
+
+/* member1 custom*/
+.member1 {
+   background: lightcyan;
+}
+.member1 .wrap .profile img {
+   box-shadow: 5px 15px 30px rgba(144, 223, 255, .8);
+}
+.member1 .wrap .profile .btnView {
+   background: linear-gradient(45deg, aqua, #77d9ff);
+   box-shadow: 5px 10px 20px rgba(0, 255, 255, .5);
+}
+
+/* member2 custom*/
+.member2 {
+   background: rgb(224, 255, 234);
+}
+.member2 .wrap .profile img {
+   box-shadow: 5px 15px 30px rgba(144, 255, 203, 0.8);
+}
+.member2 .wrap .profile .btnView {
+   background: linear-gradient(45deg, #00ffb3, #77ffa0);
+   box-shadow: 5px 10px 20px rgba(0, 255, 170, 0.5);
+}
+
+/* member3 custom*/
+.member3 {
+   background: rgb(252, 224, 255);
+}
+.member3 .wrap .profile img {
+   box-shadow: 5px 15px 30px rgba(246, 144, 255, 0.8);
+}
+.member3 .wrap .profile .btnView {
+   background: linear-gradient(45deg, #ff00f2, #ff77b7);
+   box-shadow: 5px 10px 20px rgba(255, 0, 234, 0.5);
+}
+
+/* member4 custom*/
+.member4 {
+   background: rgb(245, 224, 255);
+}
+.member4 .wrap .profile img {
+   box-shadow: 5px 15px 30px rgba(220, 144, 255, 0.8);
+}
+.member4 .wrap .profile .btnView {
+   background: linear-gradient(45deg, #c300ff, #bd77ff);
+   box-shadow: 5px 10px 20px rgba(174, 0, 255, 0.5);
 }
